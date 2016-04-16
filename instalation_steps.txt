@@ -1,0 +1,7 @@
+(i)     cabal init
+(ii)    cabal sandbox init
+(iii)   curl http://www.stackage.org/<stackage version>/cabal.config > cabal.config
+        {   https://www.stackage.org/lts-5.12
+            https://www.stackage.org/lts-5.12/cabal.config
+        }
+(iv)    cabal install --only-dep
